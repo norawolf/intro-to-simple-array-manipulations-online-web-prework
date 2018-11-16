@@ -10,7 +10,6 @@ def using_pop(array)
   array.pop
 end
 
-def pop_with_args(chars_in_game_of_thrones)
-  chars_in_game_of_thrones.pop
-  chars_in_game_of_thrones.pop
+def pop_with_args(array)
+  array(2).pop
 end
